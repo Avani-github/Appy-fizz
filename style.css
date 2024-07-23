@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Dosis", sans-serif;;
+}
+.nav{
+    position:fixed;
+    width:100%;
+    height:55px;
+    background-color: rgb(2, 2, 59);
+    display:flex;
+    justify-content: space-between;
+    z-index: 4;
+}
+.nav img{
+    padding:13px;
+    align-items: center;
+}
+.nav-items{
+  display: flex;
+  color:white;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.nav-items .list{
+    text-decoration:none;
+    padding-right:50px ;
+    font-size:18px;
+}
+.nav-items .list:hover{
+    color:brown;
+}
+#icons{
+    padding-left:6px;
+}
+.banner img{
+    width: 100%;
+}
+.seccond-page{
+    position:fixed;
+}
+.left{
+    background-color: black;
+    width: 50%;
+    height:1000px;
+    margin-top:-4px;
+
+}
+.left img{
+    position:absolute;
+     width:180px;
+     height: 500px;
+     padding-left:190px;
+     padding-top:150px;
+     z-index: 1;
+}
+
+.left h1{
+    color:white;
+    position: relative;
+    font-size: 100px;
+    z-index: 2;
+    padding-left:100px;
+    padding-top:300px;
+}
+.left h1 span{
+    padding-left:80px;
+}
+.right{
+    
+    margin-left:760px;
+    margin-right: 95px;
+    margin-top:-920px;
+    font-weight: lighter;
+    font-size:24px;
+    line-height: 1.2;
+    font-family: "Rajdhani", sans-serif;
+}
+.second-banner img{
+    width: 100%;
+    padding-top:20px;
+}
+.icons{
+    padding-top:18px;
+    font-size: 29px;
+}
+.footer{
+    padding:50px;
+    font-size: 19px;
+   
+}
+
+
+.footer ul{
+    list-style: none;
+    height:100px;
+    padding-bottom: -20px;
+    
+}
+.footer ul li{
+   padding-bottom: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    padding-top: 7px;
+}
+.footer ul li span{
+    padding-top: 5px;
+    font-size:14px;
+}
+.footer-p2{
+    width:30%;
+    height: 100px;
+    margin-left:350px;
+    margin-top:-100px;
+}
+.footer-p2 p{
+    font-size: smaller;
+ padding-top: 7px;
+   
+}
+.footer-p2 a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.footer-p2 p a{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+   
+}
+.footer-p3{
+    margin-left: 800px;
+    margin-top:-100px ;
+    height: 170px;
+   
+}
+
+.footer-p3 p{
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+.footer-p3 p a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 40px;
+   
+}
+ .footer-p3 p a:hover{
+    text-decoration: underline;
+    color: rgb(206, 55, 55);
+   
+}
+.footer .left-icon{
+    margin-top: 10px;
+    
+}
